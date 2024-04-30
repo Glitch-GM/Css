@@ -2,14 +2,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  text-align: center;
+}
+
 h1 {
-  color: rgb(255, 0, 0);
+  text-align: center;
+  text-decoration: underline;
 }
 
-#blue {
-  color: blue;
-}
-
-.one {
-  color: rgb(143, 148, 0);
+.p2 {
+  text-align: start;
 }
