@@ -1,24 +1,19 @@
 div {
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  background-color: pink;
-  border-width: 2px;
-  border-style: solid;
-  border-color: brown;
-  border-radius: 50%;
-  padding-top: 40px;
-  margin: 20px;
+  height: 40px;
+  background-color: #0f1111;
 }
 
-h1 {
-  border-style: dotted;
-  border-width: 2px;
-  text-align: center;
-  background-color: rgb(116, 116, 242);
-  width: 200px;
+button {
+  background-color: #f08804;
 }
 
-p {
-  border: 3px dashed black;
+#logo {
+  color: #f08804;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  margin-right: 200px;
+  text-decoration: none;
 }
