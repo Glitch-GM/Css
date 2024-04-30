@@ -1,0 +1,15 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+}
+
+#blue {
+  color: blue;
+}
+
+.one {
+  color: rgb(143, 148, 0);
+}
