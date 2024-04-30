@@ -4,11 +4,13 @@
 
 p {
   text-align: center;
+  line-height: 30px;
 }
 
 h1 {
   text-align: center;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .p2 {
