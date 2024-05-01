@@ -1,4 +1,43 @@
-div {
-  display: inline;
-  background-color: rgba(255, 0, 0, 0.5);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#nav {
+  height: 40px;
+  background-color: #0f1111;
+  padding-top: 10px;
+}
+
+button {
+  background-color: #f08804;
+}
+
+#logo {
+  color: #f08804;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  margin-right: 180px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.contentbox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#content {
+  height: 700px;
+}
+
+footer {
+  color: azure;
+  background-color: #0f1111;
+  text-align: center;
 }
