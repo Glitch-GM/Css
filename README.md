@@ -14,3 +14,6 @@ background image and size
 Flex box
 pseudoclass
 Transition
+Css Transform
+Animation
+creating loader

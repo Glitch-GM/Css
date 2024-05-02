@@ -1,20 +1,18 @@
-div {
-  height: 100px;
+.loader {
   width: 100px;
-  background-color: red;
-  border: 2px solid black;
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-in;
-  transition-delay: 1s;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid grey;
+  border-top: 5px solid black;
+  /* background-color: pink; */
+  animation: load 3s ease-in-out infinite normal;
 }
 
-div:hover {
-  background-color: blue;
-  font-size: 20px;
-  color: white;
-}
-
-div:active {
-  background-color: pink;
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
