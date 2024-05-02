@@ -1,9 +1,35 @@
+body {
+  text-align: center;
+}
+
 div {
-  height: 100px;
-  width: 100px;
-  background-image: url(parrot.jpg);
-  background-size: cover;
-  position: fixed;
-  right: 0px;
-  top: 100px;
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#container {
+  width: 700px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+#box1 {
+  background-color: aqua;
+}
+
+#box2 {
+  background-color: pink;
+}
+
+#box3 {
+  background-color: darkblue;
+}
+
+#box4 {
+  background-color: red;
 }
