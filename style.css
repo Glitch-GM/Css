@@ -1,35 +1,20 @@
-body {
-  text-align: center;
-}
-
 div {
-  height: 20px;
-  width: 50px;
-  display: inline-block;
-  border: 2px solid black;
-}
-
-#container {
-  width: 700px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-}
-
-#box1 {
-  background-color: aqua;
-}
-
-#box2 {
-  background-color: pink;
-}
-
-#box3 {
-  background-color: darkblue;
-}
-
-#box4 {
+  height: 100px;
+  width: 100px;
   background-color: red;
+  border: 2px solid black;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+
+div:hover {
+  background-color: blue;
+  font-size: 20px;
+  color: white;
+}
+
+div:active {
+  background-color: pink;
 }
